@@ -1,0 +1,16 @@
+body {
+    background-color: #f5f9ff;
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 30px;
+}
+
+#main-title {
+    color: #1e6091;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
