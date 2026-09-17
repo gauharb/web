@@ -1,0 +1,148 @@
+body {
+    margin: 0;
+    padding: 30px;
+    background-color: rgb(237, 246, 252);
+    color: rgb(92, 23, 93);
+    font-family: "Poppins", Arial, sans-serif;
+}
+
+
+header {
+    text-align: center;
+    background-color: rgb(216, 234, 250);
+    padding: 30px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+header h1 {
+    margin: 0;
+    font-family: "Playfair Display", serif;
+    font-size: 48px;
+    color: rgb(92, 23, 93);
+}
+
+.subtitle {
+    font-size: 18px;
+    margin-top: 10px;
+    color: rgb(109, 75, 114);
+}
+
+
+.navbar  {
+  background-color: rgb(229, 242, 252);
+  height: 40px;
+  text-align: center;
+}
+
+.navbar button {
+  background-color: rgb(229, 242, 252);
+  color: rgb(92, 23, 93);
+  border: none;
+  padding: 10px 10px;
+}
+
+
+.content {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+.portrait {
+    display: block;
+    max-width: 350px;
+    width: 100%;
+    margin: 0 auto 30px auto;
+    border-radius: 15px;
+    border: 7px solid white;
+}
+
+
+.card {
+    background-color: white;
+    margin-bottom: 25px;
+    padding: 25px;
+    border: 1px solid rgb(229, 217, 240);
+    border-radius: 12px;
+}
+
+
+.card h2 {
+    margin-top: 0;
+    padding: 12px 15px;
+    background-color: rgb(227, 241, 251);
+    border-radius: 8px;
+    font-family: "Playfair Display", serif;
+    font-size: 28px;
+    color: rgb(92, 23, 93);
+}
+
+.card h3 {
+    color: rgb(109, 75, 114);
+    font-size: 20px;
+}
+
+
+.card p {
+    font-size: 16px;
+    line-height: 1.7;
+}
+
+
+
+ol {
+    list-style-type: decimal;
+    padding-left: 30px;
+}
+
+ul {
+    list-style-type: square;
+    padding-left: 30px;
+}
+
+li {
+    margin: 12px 0;
+    font-size: 17px;
+    line-height: 1.5;
+}
+
+
+a {
+    display: inline-block;
+    margin: 8px 8px 8px 0;
+    padding: 12px 18px;
+    border: 1px solid rgb(224, 215, 230);
+    border-radius: 8px;
+    color: rgb(92, 23, 93);
+    background-color: rgb(237, 246, 252);
+    text-decoration: none;
+    font-weight: 500;
+}
+
+
+.btn {
+    background-color: rgb(227, 241, 251);
+}
+
+
+a:hover {
+    background-color: rgb(214, 234, 250);
+    color: rgb(92, 23, 93);
+}
+
+
+footer {
+    max-width: 900px;
+    margin: 30px auto 0 auto;
+    padding: 20px;
+    background-color: rgb(216, 234, 250);
+    border-radius: 10px;
+    text-align: center;
+}
+
+footer p {
+    margin: 5px;
+    color: rgb(92, 23, 93);
+}

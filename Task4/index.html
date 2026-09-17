@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Student Grades and Feedback</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+    <header>
+        <h1>Assignment 1</h1>
+        <p>Student Grades and Feedback</p>
+    </header>
+
+
+    <div class="navbar">
+
+        <button onclick="window.location.href='../Task1/index.html';">Task 1</button>
+        <button onclick="window.location.href='../Task2/index.html';">Task 2</button>
+        <button onclick="window.location.href='../Task3/index.html';">Task 3</button>
+        <button onclick="window.location.href='../Task4/index.html';">Task 4</button>
+    </div>
+
+
+    <div class="table-card">
+
+        <h2 id="table-title">Student Grades</h2>
+
+        <table>
+
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Subject</th>
+                    <th>Grade</th>
+                </tr>
+            </thead>
+
+            <tbody>
+
+                <tr>
+                    <td>Aruzhan</td>
+                    <td>Operating Systems</td>
+                    <td>95</td>
+                </tr>
+
+                <tr class="highlight-row">
+                    <td>Gauhar</td>
+                    <td>WEB Technologies1 (Front End)</td>
+                    <td>100</td>
+                </tr>
+
+                <tr>
+                    <td>Aigerim</td>
+                    <td>Database</td>
+                    <td>87</td>
+                </tr>
+
+                <tr>
+                    <td>Dana</td>
+                    <td>Calculus</td>
+                    <td>91</td>
+                </tr>
+
+                <tr class="average-row">
+                    <td colspan="2">Class Average</td>
+                    <td>93,25</td>
+                </tr>
+
+            </tbody>
+
+        </table>
+
+    </div>
+
+
+
+    <div class="form-card">
+
+        <h2 id="form-title">Feedback Form</h2>
+
+        <form>
+
+            <label for="name">Name:</label>
+
+            <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Enter your name"
+            >
+
+
+            <label for="email">Email:</label>
+
+            <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Enter your email"
+            >
+
+
+            <label for="role">Role:</label>
+
+            <select id="role" name="role">
+
+                <option value="student">Student</option>
+                <option value="teacher">Teacher</option>
+                <option value="other">Other</option>
+
+            </select>
+
+
+            <label>Are you satisfied with the website?</label>
+
+            <div class="radio-group">
+
+                <input
+                    type="radio"
+                    id="yes"
+                    name="satisfied"
+                    value="yes"
+                >
+
+                <label for="yes">Yes</label>
+
+
+                <input
+                    type="radio"
+                    id="no"
+                    name="satisfied"
+                    value="no"
+                >
+
+                <label for="no">No</label>
+
+            </div>
+
+
+            <label for="comments">Comments:</label>
+
+            <textarea
+                id="comments"
+                name="comments"
+                rows="5"
+                placeholder="Write your comments..."
+            ></textarea>
+
+
+            <button class="submit-button" type="submit">
+                Submit Feedback
+            </button>
+
+        </form>
+
+    </div>
+
+
+    <footer>
+        <p>© 2026 Assignment 1. All rights reserved.</p>
+    </footer>
+
+</body>
+
+</html>

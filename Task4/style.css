@@ -1,0 +1,191 @@
+body {
+    margin: 0;
+    padding: 30px;
+    background-color: rgb(237, 246, 252);
+    color: rgb(90, 21, 92);
+    font-family: "Poppins", Arial, sans-serif;
+}
+
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 48px;
+    color: rgb(90, 21, 92);
+}
+
+header p {
+    font-size: 18px;
+    color: rgb(109, 75, 114);
+}
+
+
+.navbar {
+    background-color: rgb(229, 242, 252);
+    height: 40px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.navbar button {
+    background-color: rgb(229, 242, 252);
+    color: rgb(92, 23, 93);
+    border: none;
+    padding: 10px 10px;
+}
+
+
+.table-card {
+    max-width: 900px;
+    margin: 0 auto 30px auto;
+    padding: 25px;
+    background-color: white;
+    border: 1px solid rgb(229, 217, 240);
+    border-radius: 12px;
+}
+
+
+#table-title {
+    margin-top: 0;
+    padding: 12px;
+    background-color: rgb(227, 241, 251);
+    border-radius: 8px;
+    text-align: center;
+    font-family: "Playfair Display", serif;
+    font-size: 30px;
+    color: rgb(90, 21, 92);
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+
+th,
+td {
+    border: 1px solid rgb(203, 221, 233);
+    padding: 14px;
+    text-align: center;
+}
+
+
+th {
+    background-color: rgb(214, 233, 250);
+    color: rgb(90, 21, 92);
+    font-weight: bold;
+}
+
+
+tbody tr:nth-child(even) {
+    background-color: rgb(243, 248, 252);
+}
+
+
+.highlight-row {
+    background-color: rgb(234, 220, 240);
+
+    font-weight: bold;
+}
+
+
+.average-row {
+    background-color: rgb(227, 241, 251);
+    font-weight: bold;
+}
+
+
+.form-card {
+    width: 450px;
+    margin: 0 auto 30px auto;
+    padding: 30px;
+    background-color: white;
+    border-radius: 12px;
+    border: 1px solid rgb(229, 217, 240);
+}
+
+
+#form-title {
+    margin-top: 0;
+    padding: 12px;
+    background-color: rgb(227, 241, 251);
+    border-radius: 8px;
+    text-align: center;
+    font-family: "Playfair Display", serif;
+    font-size: 30px;
+    color: rgb(90, 21, 92);
+}
+
+
+form > label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 7px;
+    font-weight: bold;
+    color: rgb(90, 21, 92);
+}
+
+
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 12px;
+    margin-bottom: 10px;
+    border: 1px solid rgb(203, 221, 233);
+    border-radius: 6px;
+    font-family: "Poppins", Arial, sans-serif;
+}
+
+
+.radio-group {
+    margin: 10px 0 15px 0;
+}
+
+.radio-group label {
+    display: inline;
+    margin-right: 15px;
+    font-weight: normal;
+}
+
+
+.submit-button {
+    width: 100%;
+    margin-top: 15px;
+    padding: 12px;
+    background-color: rgb(227, 241, 251);
+    color: rgb(90, 21, 92);
+    border: 1px solid rgb(203, 221, 233);
+    border-radius: 7px;
+    font-family: "Poppins", Arial, sans-serif;
+    font-size: 16px;
+}
+
+
+.submit-button:hover {
+    background-color: rgb(214, 234, 250);
+}
+
+
+footer {
+    max-width: 900px;
+    margin: 30px auto 0 auto;
+    padding: 20px;
+    background-color: rgb(214, 233, 250);
+    border-radius: 10px;
+    text-align: center;
+}
+
+footer p {
+    margin: 5px;
+    color: rgb(90, 21, 92);
+}

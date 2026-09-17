@@ -1,0 +1,72 @@
+.a {
+  background-color:rgb(200, 229, 255);
+  height: 70px;
+  width: 1380px;
+  text-align: center;
+  line-height: 60px;
+}
+
+.a h1 {
+  color: rgb(92, 23, 93);
+  text-align: center;
+  margin: 0;
+}
+
+.navbar  {
+  background-color: rgb(229, 242, 252);
+  height: 40px;
+  width: 1380px;
+  text-align: center;
+}
+
+.navbar button {
+  background-color: rgb(229, 242, 252);
+  color: rgb(92, 23, 93);
+  border: none;
+  padding: 10px 10px;
+}
+
+.c {
+  background-color: rgb(236, 247, 255);
+  height: 170px;
+  width: 280px;
+  margin-top: 20px;
+  float: left;
+}
+
+.c p {
+  color: rgb(92, 23, 93);
+  font-weight: bold;
+  margin: 10px;
+}
+
+.d {
+  background-color: rgb(236, 247, 255);
+  height: 130px;
+  width: 330px;
+  margin-top: 20px;
+  margin-left: 290px;
+  box-sizing: border-box;
+}
+
+.d p {
+  color: #5c175d;
+  font-weight: bold;
+  margin: 10px;
+  float: left;
+}
+
+.e {
+  background-color: rgb(200, 229, 255);
+  height: 50px;
+  width: 1380px;
+  margin-top: 250px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.e p {
+  color: rgb(92, 23, 93);
+  margin: 15px;
+  padding-top: 10px;
+}

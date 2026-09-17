@@ -1,0 +1,226 @@
+body {
+    margin: 0;
+    padding: 30px;
+    background-color: #edf6fc;
+    color: #5a155c;
+    font-family: "Poppins", Arial, sans-serif;
+}
+
+
+header {
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+h1 {
+    margin: 0;
+    font-family: "Playfair Display", serif;
+    font-size: 48px;
+    color: #5a155c;
+}
+
+.subtitle {
+    font-size: 18px;
+    margin-top: 10px;
+    color: #6d4b72;
+}
+
+
+.navbar {
+    background-color: rgb(229, 242, 252);
+    height: 40px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.navbar button {
+    background-color: rgb(229, 242, 252);
+    color: rgb(92, 23, 93);
+    border: none;
+    padding: 10px 10px;
+}
+
+
+#profile-card {
+    max-width: 850px;
+    margin: 0 auto 35px auto;
+    padding: 25px;
+    background-color: rgb(255, 255, 255);
+    border: 3px solid rgb(214, 234, 250);
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+
+.profile-image {
+    float: left;
+    margin-right: 30px;
+}
+
+.profile-image img {
+    width: 230px;
+    height: 230px;
+    object-fit: cover;
+    max-width: 1700%;
+    border-radius: 50%;
+    border: 7px solid rgb(217, 237, 250);
+}
+
+
+
+.profile-info {
+    padding-top: 20px;
+}
+
+.profile-info h2 {
+    margin: 0 0 10px 0;
+    font-family: "Playfair Display", serif;
+    font-size: 38px;
+    color: #5a155c;
+}
+
+.profile-info h3 {
+    margin: 0 0 15px 0;
+    font-size: 20px;
+    color: #5a155c;
+}
+
+.profile-info p {
+    font-size: 17px;
+    line-height: 1.7;
+}
+
+
+main {
+    max-width: 1100px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+
+.card {
+    display: inline-block;
+    vertical-align: top;
+
+    box-sizing: border-box;
+
+    width: 46%;
+    margin: 10px;
+
+    padding: 25px;
+
+    background-color: #ffffff;
+
+    border: 1px solid #e8e1ee;
+    border-radius: 12px;
+
+    text-align: left;
+}
+
+.card h2 {
+    margin-top: 0;
+    padding: 12px 15px;
+
+    font-family: "Playfair Display", serif;
+    font-size: 28px;
+
+    background-color: #e3f1fb;
+    border-radius: 8px;
+
+    color: #5a155c;
+}
+
+
+
+.card p {
+    font-size: 16px;
+    line-height: 1.7;
+}
+
+
+li {
+    margin: 12px 0;
+    font-size: 17px;
+}
+
+ol li::marker {
+    font-weight: bold;
+    color: rgb(92, 23, 93);
+}
+
+ul li::marker {
+    color: rgb(90, 21, 92);
+}
+
+
+
+.links {
+    display: block;
+}
+
+a {
+    display: block;
+
+    margin: 12px 0;
+    padding: 15px;
+    border: 1px solid rgb(224, 215, 230);
+    border-radius: 8px;
+    color: rgb(92, 23, 93);
+    text-decoration: none;
+    font-weight: 500;
+}
+
+
+a:hover {
+    background-color: rgb(214, 234, 250);
+    color: rgb(122, 38, 125);
+}
+
+
+
+footer {
+    max-width: 1100px;
+    margin: 30px auto 0 auto;
+    padding: 20px;
+    background-color: rgb(216, 234, 250);
+    border-radius: 10px;
+    text-align: center;
+}
+
+footer p {
+    margin: 5px;
+    color: rgb(92, 23, 93);
+}
+
+
+@media (max-width: 700px) {
+
+    body {
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 35px;
+    }
+
+    #profile-card {
+        text-align: center;
+    }
+
+    .profile-image {
+        float: none;
+        margin: 0 0 20px 0;
+    }
+
+    .profile-info {
+        padding-top: 0;
+    }
+
+    .card {
+        display: block;
+        width: 100%;
+        margin: 15px 0;
+    }
+}      
